@@ -7,3 +7,5 @@ You work for the Starfleet Corps of Engineers. Starfleet has just acquired a new
 Your field teams have provided you with the following information on Deep Space Nine’s power grid.
 Power flows from the main generator for the station through a series of conduits to demand nodes, where it is accessed by residents. Conduits run from one node to another (one, both, or neither end may be a demand node) and have limited capacity. The power can flow in either direction through the conduit, but whichever direction is used, the magnitude of the flow cannot exceed the given capacity. Fortunately, Cardassian conduits (while having a poor capacity) are extremely efficient; the power put into one end is exactly the power that will come out the other end. The chart in Figure 1 shows the conduits and demand nodes for the residential district.
 
+Deep Space Nine Network Nodes
+![Alt text](/NetworkNodes.png?raw=true "Deep Space Nine")
