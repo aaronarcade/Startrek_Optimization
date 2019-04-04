@@ -5,7 +5,6 @@ from gurobipy import *
 biderictional = True
 
 #Read data from files
-
 demandData = pd.read_csv("DS9_Network_Node_Data.csv", header = 0, index_col = 0)
 
 nodes = demandData.index.tolist()
@@ -33,7 +32,7 @@ for i in nodes:
     groupdemand[group[i]-1] += demands[i]   #Indices start from 0 not 1
 print("Total demand by group: ", groupdemand)
 
-arcData = pd.read_csv("DS9_Network_Arc_Data.csv", header = 0)
+arcData = pd.read_csv("DS9_Network_Arc_Data_B2.csv", header = 0)
 arcs, capacity = multidict({(row[0], row[1]) : row[2] for (index, row) in arcData.iterrows()})
 
 #Rudimentary data processing to transform into a max flow network
@@ -57,6 +56,8 @@ m = Model('netflow')
 
 # Create variables
 flow = m.addVars(arcs, name="flow")
+#binary set
+#integer set
 
 #Set objective
 m.setObjective(flow.sum(source,'*'), GRB.MAXIMIZE)
