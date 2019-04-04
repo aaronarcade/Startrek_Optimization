@@ -1,0 +1,598 @@
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:04:42 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.01 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:05:36 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:07:08 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:08:01 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:10:13 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:10:41 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:18:50 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:21:03 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:26:05 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 274 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 206 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:26:33 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 274 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 206 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   5.554475e+01   0.000000e+00      0s
+      27    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 27 iterations and 0.00 seconds
+Optimal objective  1.030000000e+02
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:41:27 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:41:34 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 274 columns and 380 nonzeros
+Variable types: 137 continuous, 137 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 144 rows and 207 columns
+Presolve time: 0.01s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:42:16 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 411 columns and 380 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 144 rows and 344 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:45:38 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 411 columns and 517 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 137 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:52:20 2019
+
+Academic license - for non-commercial use only
+Warning: linear constraint 0 and linear constraint 167 have the same name "cap[1,4]"
+Optimize a model with 304 rows, 411 columns and 654 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 274 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:53:22 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:53:29 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:55:11 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:55:53 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 623 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:56:59 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 623 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:57:22 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 18:59:16 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:00:54 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:14:52 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 136 rows, 411 columns and 402 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective -0.0000000
+Presolve removed 106 rows and 251 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:15:01 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 136 rows, 411 columns and 402 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective -0.0000000
+Presolve removed 106 rows and 251 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:15:53 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 220 rows, 411 columns and 570 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:16:44 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 220 rows, 411 columns and 433 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 197 rows and 344 columns
+Presolve time: 0.01s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:17:06 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 539 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 250 rows and 344 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:18:40 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
