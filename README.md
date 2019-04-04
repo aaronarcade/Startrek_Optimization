@@ -1,7 +1,7 @@
 # Startrek_Optimization
 Starfleet Corps of Engineers Optimization Model
 
-![Alt text](/SCE.png?raw=true "SCE" width="100")
+![Alt text](/SCE.png?raw=true "SCE")
 
 You work for the Starfleet Corps of Engineers. Starfleet has just acquired a new space station, Deep Space Nine, from an alien race called the Cardassians, and you’ve been tasked with modifying the station’s residential district so that it can house its new occupants. While the residential power grid was more than sufficient for the Cardassians, the people moving into the station have different energy requirements, and the grid can’t serve all of them. Your job is to satisfy as much of the energy demand as possible.
 
