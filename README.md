@@ -20,7 +20,7 @@ Power flows from the main generator for the station through a series of conduits
 
 ## Node Diagram
 Deep Space Nine Network Nodes
-![Alt text](/NetworkNodes.png?raw=true "Deep Space Nine")
+![Alt text](/NetworkNodes.png?raw=true "Deep Space Nine" = 250x250)
 
 ## Approach
 The goal of this linear programming model is to distribute the maximum units of energy throughout the DS9 network. In order to create the model, two variables were created. The constraint xa represents the units of energy flowing forward between two arcs. In DS9, energy can flow forward and backwards between nodes. To simplify this, each arc between two nodes is only represented once (notated as moving from the node with smaller numerical name). For example, the arc between node 1 and node 2 is included but the arc from node 2 to node 1 is not; the latter arc would simply be the negative of the former. The variable, yn, is the total energy units received by node n. This variable is maximized in the objective function to determine the optimal solution where all the constraints are met.
