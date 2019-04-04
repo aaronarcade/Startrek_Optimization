@@ -10,8 +10,13 @@ Power flows from the main generator for the station through a series of conduits
 
 ## Table of Contents
 
-* [Approach](#Approach)
-* [Implementation Results](#Implementation Results)
+* [Approach](#approach)
+* [Implementation Results](#implementation-results)
+* [Shortcomings (2b)](#shortcomings-(2b))
+* [Approach (2c)](#approach-(2c))
+* [Mathematical Model (2c)](#mathematical-model-(2c))
+* [Implementation Results (3a)](#implementation-results-(3a))
+* [Trade-off Curve (3b)](#trade-off-curve-(3b))
 
 ## Node Diagram
 Deep Space Nine Network Nodes
