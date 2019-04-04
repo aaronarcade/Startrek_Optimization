@@ -1,0 +1,20 @@
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 16:30:49 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 167 rows, 137 columns and 380 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 144 rows and 69 columns
+Presolve time: 0.01s
+Presolved: 23 rows, 68 columns, 114 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.0310400e+02   4.928450e+01   0.000000e+00      0s
+      36    1.0300000e+02   0.000000e+00   0.000000e+00      0s
+
+Solved in 36 iterations and 0.01 seconds
+Optimal objective  1.030000000e+02

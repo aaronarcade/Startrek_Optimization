@@ -1,11 +1,26 @@
 # Startrek_Optimization
-ISyE3133 Optimization
+Starfleet Corps of Engineers Optimization Model
+
+![Alt text](/SCE.png?raw=true "SCE")
 
 You work for the Starfleet Corps of Engineers. Starfleet has just acquired a new space station, Deep Space Nine, from an alien race called the Cardassians, and you’ve been tasked with modifying the station’s residential district so that it can house its new occupants. While the residential power grid was more than sufficient for the Cardassians, the people moving into the station have different energy requirements, and the grid can’t serve all of them. Your job is to satisfy as much of the energy demand as possible.
-
 
 Your field teams have provided you with the following information on Deep Space Nine’s power grid.
 Power flows from the main generator for the station through a series of conduits to demand nodes, where it is accessed by residents. Conduits run from one node to another (one, both, or neither end may be a demand node) and have limited capacity. The power can flow in either direction through the conduit, but whichever direction is used, the magnitude of the flow cannot exceed the given capacity. Fortunately, Cardassian conduits (while having a poor capacity) are extremely efficient; the power put into one end is exactly the power that will come out the other end. The chart in Figure 1 shows the conduits and demand nodes for the residential district.
 
+## Table of Contents
+
+* [Node Diagram](#Node Diagram)
+* [Approach](#Approach)
+* [Creators](#creators)
+
+
+## Node Diagram
 Deep Space Nine Network Nodes
 ![Alt text](/NetworkNodes.png?raw=true "Deep Space Nine")
+
+## Approach
+The goal of this linear programming model is to distribute the maximum units of energy throughout the DS9 network. In order to create the model, two variables were created. The constraint xa represents the units of energy flowing forward between two arcs. In DS9, energy can flow forward and backwards between nodes. To simplify this, each arc between two nodes is only represented once (notated as moving from the node with smaller numerical name). For example, the arc between node 1 and node 2 is included but the arc from node 2 to node 1 is not; the latter arc would simply be the negative of the former. The variable, yn, is the total energy units received by node n. This variable is maximized in the objective function to determine the optimal solution where all the constraints are met.
+To maximize the total demand by all nodes, we begin by meeting two initial constraints. The first main constraint is setting the upper bound for all nodes. It is assumed that the each node can only accept enough energy to satisfy the amount demanded. Secondly, the upper and lower limits of each arc is set. Interestingly, the arcs between nodes have no constraint dictating which direction they must flow - to model this, we set lower and upper bounds of equal magnitude for each node. The upper bound represents how much demand it moving forward and the negative lower bound represents the maximum units of energy moving backwards on the arc.
+The last constraint set ensured that for any given node, the demand satisfied, yn, must be the sum of incoming arcs and negative sum of outgoing arcs. Since it is assumed that the generator can produce an unlimited amount of power, the arc, x0,1, connects a fake source to the first node to somewhat trivially start supplying energy to the network.
+
