@@ -10,10 +10,8 @@ Power flows from the main generator for the station through a series of conduits
 
 ## Table of Contents
 
-* [Node Diagram](#Node Diagram)
 * [Approach](#Approach)
-* [Creators](#creators)
-
+* [Implementation Results](#Implementation Results)
 
 ## Node Diagram
 Deep Space Nine Network Nodes
@@ -24,3 +22,6 @@ The goal of this linear programming model is to distribute the maximum units of 
 To maximize the total demand by all nodes, we begin by meeting two initial constraints. The first main constraint is setting the upper bound for all nodes. It is assumed that the each node can only accept enough energy to satisfy the amount demanded. Secondly, the upper and lower limits of each arc is set. Interestingly, the arcs between nodes have no constraint dictating which direction they must flow - to model this, we set lower and upper bounds of equal magnitude for each node. The upper bound represents how much demand it moving forward and the negative lower bound represents the maximum units of energy moving backwards on the arc.
 The last constraint set ensured that for any given node, the demand satisfied, yn, must be the sum of incoming arcs and negative sum of outgoing arcs. Since it is assumed that the generator can produce an unlimited amount of power, the arc, x0,1, connects a fake source to the first node to somewhat trivially start supplying energy to the network.
 
+## Implementation Results
+The maximum amount of energy distributed throughout the network is 99 units. It was distributed among the nodes as listed in the table on the following page.
+A few important observations from the results should be discussed. First, the first node receives the total amount of energy demanded since it was trivally connected to the energy source. Secondly, 99 units of energy flowed through the arc, x0,1, which indicates that the model is accurate. Finally, due to the objective function, the model does not distribute energy fairly throughout the nodes. Instead, some nodes receive their total demand requested while many nodes receive none. This issue will be discussed in the next portion of the model.
