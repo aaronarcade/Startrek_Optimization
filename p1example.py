@@ -1,8 +1,13 @@
 import pandas as pd
 from gurobipy import *
+import pprint
 
 #SET flag if the arc data should be biderictional
 biderictional = True
+
+# set time constriant
+
+t = 0
 
 #Read data from files
 demandData = pd.read_csv("DS9_Network_Node_Data.csv", header = 0, index_col = 0)
@@ -61,7 +66,7 @@ m.setObjective(flow.sum(source,'*'), GRB.MAXIMIZE)
 
 # Arc capacity constraints
 m.addConstrs(
-   (flow[i,j]  <= capacity[i,j] for i,j in arcs), "cap")
+   (flow[i,j] <= capacity[i,j] + bolts[i,j] for i,j in arcs), "cap")
 
 # Flow conservation constraints
 m.addConstrs(
@@ -73,6 +78,11 @@ m.addConstrs(
 
 m.addConstrs(
 	(bolts[i,j] <= maximp[i,j]*fixed[i,j] for i,j in fixarcs), "max")
+	
+time = 0
+for i,j  in arcs:
+	time += 3* fixed[i,j] + bolts[i,j]
+m.addConstr(time <= t,"time")
 
 # Compute optimal solution
 m.write("project.lp")
@@ -97,5 +107,3 @@ if m.status == GRB.Status.OPTIMAL:
     for g in range(Ngroups):
         if groupdemand[g] > 0:
             print("Group %s had proportion %g of its demand satisfied" % (g+1, groupsat[g]/groupdemand[g]))
-            
-

@@ -596,3 +596,344 @@ Solution count 1: -0
 
 Model is unbounded
 Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:23:33 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:24:05 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [6e-03, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:24:14 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 539 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 250 rows and 344 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:24:44 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 539 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 249 rows and 341 columns
+Presolve time: 0.00s
+Presolved: 24 rows, 70 columns, 117 nonzeros
+Found heuristic solution: objective 7.0000000
+Variable types: 70 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.110000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     111.0000000  111.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 111 7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.110000000000e+02, best bound 1.110000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:29:28 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 539 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 250 rows and 344 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:29:57 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 539 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 250 rows and 344 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:34:01 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:45:52 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:46:22 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:46:47 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:47:20 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:49:41 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:51:02 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:51:26 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:51:54 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 273 rows, 411 columns and 676 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 190 rows and 304 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: -0 
+
+Model is unbounded
+Best objective -0.000000000000e+00, best bound -, gap -
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:52:08 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:52:21 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 274 rows, 411 columns and 950 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 251 rows and 344 columns
+Presolve time: 0.01s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Thu Apr  4 19:52:28 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 274 rows, 411 columns and 950 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 251 rows and 344 columns
+Presolve time: 0.00s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
