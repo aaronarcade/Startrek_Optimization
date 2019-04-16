@@ -3,9 +3,14 @@
 from gurobipy import GRB,Model
 import pprint
 import csv
+import numpy
+import matplotlib.pyplot as plt
 
 # Create the model------------------------------------
 m = Model('problem A')
+
+q = []
+r = []
 
 arc_caps = {}
 with open('DS9_Network_Arc_Data.csv', 'r') as csvfile:
@@ -95,8 +100,6 @@ for node in nodes:
             exp+=v[a]
         if send == send_n:
             exp-=v[a]
-    print(node)
-    print(exp)
     m.addConstr(v[node]==exp, name="a"+node)
 
 #set max and min constraints for nodes
@@ -126,3 +129,44 @@ if status == 2:
     for v in m.getVars():
         print('%s = %g' % (v.varName, v.x))
     print('Optimal objective value:\n{}'.format(m.objVal))
+    
+# Determine x, y values ------------------------------------
+    print()
+    n=0
+    t=0
+    for i in range (1,len(groups)+1):
+        tot_sum = 0
+        node_sum = 0
+        for j in groups[i]:
+            node_sum += v[f"y{groups[i][j]}"].X
+            tot_sum += groups[i][j][1]
+        n+=node_sum
+        t+=tot_sum
+
+    o = 0
+    for i in v:
+        if i[0] == 'y':
+            o+=v[i].x
+
+    #track the x, y values per interation through the function
+    print("===== complete", fair.x, o, "=====")
+    q.append(fair.x*100)
+    #this is for percentage displayed
+    r.append((1-n/t)*100)
+
+# Run function f-model 1000 times
+g = 1000 #max points => g=1000,g=1
+h = 100 #g/h is how many points printed
+for i in range(0,g+1,h):
+    f_model(round(i*.001,3))
+
+# # Conirm loop has ended
+# print("Number of Points: ",g/h)
+# # Print x, y values
+# print("X Vals:")
+# print(q)
+# print("Y Vals:")
+# print(r)
+# # Print plot of Percent Demand Satisfied vs. Fairness Percentage
+# plt.plot(q,r)
+# plt.show()
