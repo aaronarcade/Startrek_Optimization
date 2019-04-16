@@ -3,23 +3,30 @@
 from gurobipy import GRB,Model
 import pprint
 import csv
-import numpy
 import matplotlib.pyplot as plt
+
+#SET flag if the arc data should be biderictional
+biderictional = True
+
+
+# set time constriant
+t = 1000000
 
 # Create the model------------------------------------
 m = Model('problem A')
 
 arc_caps = {}
-with open('DS9_Network_Arc_Data.csv', 'r') as csvfile:
+with open('DS9_Network_Arc_Data_B2.csv', 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
     next(reader)
     for row in reader:
         arc = row[0].split(",")
         if int(arc[0]) not in arc_caps.keys():
-            arc_caps[int(arc[0])] = {int(arc[1]):int(arc[2])}
+            arc_caps[int(arc[0])] = {int(arc[1]):(int(arc[2]), int(arc[3]))}
         else:
-            arc_caps[int(arc[0])][int(arc[1])] = int(arc[2])
+            arc_caps[int(arc[0])][int(arc[1])] = (int(arc[2]), int(arc[3]))
 d = arc_caps
+
 # print(d)
 
 node_demand = {}
@@ -28,7 +35,6 @@ with open('DS9_Network_Node_Data.csv', 'r') as csvfile:
     next(reader)
     for row in reader:
         arc = row[0].split(",")
-        print(arc)
         node_demand[int(arc[0])] = int(arc[1])
 demand = node_demand
 # print(demand)
@@ -64,26 +70,39 @@ for i in range(1,31):
     nodes.append("y"+str(i))
 
 #make fariness metric
-a = ["a"]
+# a = ["a"]
 
 #combine lists of arcs and nodes
-vars = arcs + nodes + a
+vars = arcs + nodes #+ a (add fairness metric to list of vars)
 
 #addvars arcs and nodes in list vars
+print(arcs)
 v = m.addVars(vars, vtype=GRB.CONTINUOUS, lb = -999, name = vars)
-# x0x1 = m.addVar(vtype=GRB.CONTINUOUS, lb = -999, name= "x0x1")
+bolts = m.addVars(vars, vtype=GRB.INTEGER, name="bolts")
+fixed = m.addVars(vars, vtype=GRB.BINARY, name="fixed")
 
 # Add constraints------------------------------------
 
 #make list of arcs max caps
-for i in v:
+for i in arcs:
     if i[0]=='x' and i != 'x0x1':
-        m.addConstr(v[i]<=d[int(i.split("x")[1])][int(i.split("x")[2])])
+        m.addConstr(v[i]<=d[int(i.split("x")[1])][int(i.split("x")[2])][0] + bolts[i], "maxcaps")
+#     print(i)
 
 #make list of arcs min caps
-for i in v:
+for i in arcs:
     if i[0]=='x' and i != 'x0x1':
-       m.addConstr(v[i]>=-d[int(i.split("x")[1])][int(i.split("x")[2])])
+       m.addConstr(v[i]>=-d[int(i.split("x")[1])][int(i.split("x")[2])][0] + bolts[i], "mincaps")
+       
+#make list of arcs caps with bolts fixed and maximp
+for i in arcs:
+    if i[0]=='x' and i != 'x0x1':
+       m.addConstr(bolts[i]<=d[int(i.split("x")[1])][int(i.split("x")[2])][1]*fixed[i], "boltcaps")
+       
+time = 0
+for i  in arcs:
+	time += 3* fixed[i] + bolts[i]
+m.addConstr(time <= t,"time")
 
 #make list of relations
 values = []
@@ -99,8 +118,6 @@ for node in nodes:
             exp+=v[a]
         if send == send_n:
             exp-=v[a]
-    print(node)# 
-#     print(exp)
     m.addConstr(v[node]==exp, name="a"+node)
 
 #set max and min constraints for nodes
@@ -110,15 +127,15 @@ for i in v:
         m.addConstr(v[i]<=demand[int(i[1])], name="u"+i)
 
 #set fariness constraints
-
-m.addConstr(v["a"]>=0, name="a")
-for i in range (1,len(groups)+1):
-    tot_sum = 0
-    node_sum = 0
-    for j in range(len(groups[i])):
-        node_sum += v[f"y{groups[i][j][0]}"]
-        tot_sum += groups[i][j][1]
-    m.addConstr((node_sum/tot_sum) >= v["a"], name=f"g{i}")
+# 
+# m.addConstr(v["a"]>=0, name="a")
+# for i in range (1,len(groups)+1):
+#     tot_sum = 0
+#     node_sum = 0
+#     for j in range(len(groups[i])):
+#         node_sum += v[f"y{groups[i][j][0]}"]
+#         tot_sum += groups[i][j][1]
+#     m.addConstr((node_sum/tot_sum) >= v["a"], name=f"g{i}")
 
 #set total demand satisfied to be greater than or equal to a percent of 99
 obj = 0
@@ -126,9 +143,10 @@ for i in v:
     if i[0] == 'y':
         obj+=v[i]
 
-m.addConstr(obj >= 0.95*(103), name=f"g{i}")
+# m.addConstr(obj >= 0.95*(103), name=f"g{i}")
 
-m.setObjective(v["a"], GRB.MAXIMIZE)
+# m.setObjective(v["a"], GRB.MAXIMIZE)
+m.setObjective(obj, GRB.MAXIMIZE)
 
 #optimize model function
 m.write("B2.lp")

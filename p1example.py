@@ -36,6 +36,8 @@ print("Total demand by group: ", groupdemand)
 arcData = pd.read_csv("DS9_Network_Arc_Data_B2.csv", header = 0)
 arcs, capacity = multidict({(row[0], row[1]) : row[2] for (index, row) in arcData.iterrows()})
 fixarcs, maximp = multidict({(row[0], row[1]) : row[3] for (index, row) in arcData.iterrows()})
+print("maximp")
+print(maximp)
 
 #Rudimentary data processing to transform into a max flow network
 if biderictional:
