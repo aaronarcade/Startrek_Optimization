@@ -138,7 +138,8 @@ if status == 2:
         tot_sum = 0
         node_sum = 0
         for j in groups[i]:
-            node_sum += v[f"y{groups[i][j]}"].X
+        	print(groups[i])
+            node_sum += v[f"y{groups[i][j]}"].X #what is happening here????
             tot_sum += groups[i][j][1]
         n+=node_sum
         t+=tot_sum
