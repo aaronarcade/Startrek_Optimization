@@ -2063,3 +2063,80 @@ Iteration    Objective       Primal Inf.    Dual Inf.      Time
 
 Solved in 59 iterations and 0.00 seconds
 Optimal objective  6.298701299e-01
+
+Gurobi 8.1.0 (mac64, Python) logging started Tue Apr 16 15:54:20 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Optimize a model with 205 rows, 85 columns and 371 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+03, 1e+03]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 179 rows and 19 columns
+Presolve time: 0.01s
+Presolved: 26 rows, 66 columns, 150 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.8168000e-01   1.300321e+02   0.000000e+00      0s
+      59    6.2987013e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 59 iterations and 0.01 seconds
+Optimal objective  6.298701299e-01
+
+Gurobi 8.1.0 (mac64, Python) logging started Tue Apr 16 15:55:41 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Optimize a model with 205 rows, 85 columns and 371 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+03, 1e+03]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 179 rows and 19 columns
+Presolve time: 0.00s
+Presolved: 26 rows, 66 columns, 150 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.8168000e-01   1.300321e+02   0.000000e+00      0s
+      59    6.2987013e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 59 iterations and 0.00 seconds
+Optimal objective  6.298701299e-01
+
+Gurobi 8.1.0 (mac64, Python) logging started Tue Apr 16 15:55:55 2019
+
+Academic license - for non-commercial use only
+Warning: constraint name "pos bolt[1,4]" has a space
+Optimize a model with 274 rows, 411 columns and 950 nonzeros
+Variable types: 137 continuous, 274 integer (137 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Found heuristic solution: objective -0.0000000
+Presolve removed 251 rows and 344 columns
+Presolve time: 0.01s
+Presolved: 23 rows, 67 columns, 113 nonzeros
+Found heuristic solution: objective 6.0000000
+Variable types: 67 continuous, 0 integer (0 binary)
+
+Root relaxation: objective 1.030000e+02, 23 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (23 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 6 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
