@@ -128,7 +128,7 @@ def f_model(percent):
         tot_sum = 0
         node_sum = 0
         for j in range(len(groups[i])):
-            node_sum += v[f"y{groups[i][j][0]}"].X
+            node_sum += v[f"y{groups[i][j][0}"].X
             tot_sum += groups[i][j][1]
         n+=node_sum
         t+=tot_sum
