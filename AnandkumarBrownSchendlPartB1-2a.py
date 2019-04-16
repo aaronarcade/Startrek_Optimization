@@ -30,10 +30,10 @@ for i in range(1,31):
 a = ["a"]
 
 #combine lists of arcs and nodes
-vars1 = arcs + nodes + a
+vars = arcs + nodes + a
 
 #addvars arcs and nodes in list vars
-v = m.addVars(vars1, vtype=GRB.CONTINUOUS, lb = -999, name = vars1)
+v = m.addVars(vars, vtype=GRB.CONTINUOUS, lb = -999, name = vars)
 
 # Add constraints------------------------------------
 
@@ -61,6 +61,8 @@ for node in nodes:
             exp+=v[a]
         if send == send_n:
             exp-=v[a]
+    print(node)
+    print(exp)
     m.addConstr(v[node]==exp, name="a"+node)
 
 #set max and min constraints for nodes
@@ -73,21 +75,20 @@ for i in v:
 
 m.addConstr(v["a"]>=0, name="a")
 for i in range (1,len(groups)+1):
-     tot_sum = 0
-     node_sum = 0
-     for j in range(len(groups[i])):
-         node_sum += v[f"y{groups[i][j][0]}"]
-         tot_sum += groups[i][j][1]
-     m.addConstr((node_sum)/tot_sum <= v["a"], name=f"g{i}")
+    tot_sum = 0
+    node_sum = 0
+    for j in range(len(groups[i])):
+        node_sum += v[f"y{groups[i][j][0]}"]
+        tot_sum += groups[i][j][1]
+    m.addConstr((node_sum/tot_sum) >= v["a"], name=f"g{i}")
 
-    
 #set total demand satisfied to be greater than or equal to a percent of 99
 obj = 0
 for i in v:
     if i[0] == 'y':
         obj+=v[i]
 
-m.addConstr(obj >= 0.95*103, name=f"g{i}")
+m.addConstr(obj >= 0.95*(103), name=f"g{i}")
 
 m.setObjective(v["a"], GRB.MAXIMIZE)
 
