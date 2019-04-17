@@ -121,18 +121,19 @@ def f_model(b):
 	
 	m.addConstr(v["a"]>=b, name="a")
 	for i in range (1,len(groups)+1):
-	    tot_sum = 0
-	    node_sum = 0
-	    for j in range(len(groups[i])):
-	    	node_sum += v[f"y{groups[i][j][0]}"]
-	    	tot_sum += groups[i][j][1]
-	    m.addConstr((node_sum/tot_sum) >= v["a"], name=f"g{i}")
+		dif_sum = 0
+		tot_sum = 0
+		node_sum = 0
+		for j in range(len(groups[i])):
+# 	    	node_sum += v[f"y{groups[i][j][0]}"]
+# 	    	tot_sum += groups[i][j][1]
+# 	   		m.addConstr((node_sum/tot_sum) >= v["a"], name=f"g{i}")
 # 		    print(v[f"y{groups[i][j][0]}"], groups[i][j][1])
-# 	    	dif = groups[i][j][1] - v[f"y{groups[i][j][0]}"] 
-# 	    	dif_sum += dif
-# 	    	print(dif)
-# 	        node_sum += v[f"y{groups[i][j][0]}"]       
-# 	    m.addConstr(1-(dif_sum/30) >= v["a"], name=f"g{i}")
+			dif = groups[i][j][1] - v[f"y{groups[i][j][0]}"] 
+	    	dif_sum += dif
+	    	print(dif)
+	    	node_sum += v[f"y{groups[i][j][0]}"]       
+	    m.addConstr(1-(dif_sum/30) >= v["a"], name=f"g{i}")
 	
 	#set total demand satisfied to be greater than or equal to a percent of 99
 	obj = 0
@@ -164,7 +165,7 @@ def f_model(b):
 	
     
 # Run function f-model
-points = 50
+points = 5
 h = 1/points  #
 for i in np.arange(0,1+.001,h):
 	f_model(i)
