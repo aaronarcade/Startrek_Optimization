@@ -42,6 +42,7 @@ with open('DS9_Network_Node_Data.csv', 'r') as csvfile:
         if int(arc[2]) not in group_demand.keys():
         	group_demand[int(arc[2])] = int(arc[1])
         	group_sat[int(arc[2])] = dict[int(arc[1])]
+        	print(g)
         else:
         	group_demand[int(arc[2])] += int(arc[1])
         	group_sat[int(arc[2])] += int(arc[1])

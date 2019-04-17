@@ -15,6 +15,7 @@ t = 1000000
 # Create the model------------------------------------
 m = Model('problem A')
 
+# Create Dictionaries from CSV files
 arc_caps = {}
 with open('DS9_Network_Arc_Data_B2.csv', 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
@@ -26,8 +27,6 @@ with open('DS9_Network_Arc_Data_B2.csv', 'r') as csvfile:
         else:
             arc_caps[int(arc[0])][int(arc[1])] = (int(arc[2]), int(arc[3]))
 d = arc_caps
-
-# print(d)
 
 node_demand = {}
 with open('DS9_Network_Node_Data.csv', 'r') as csvfile:
@@ -49,7 +48,6 @@ with open('DS9_Network_Node_Data.csv', 'r') as csvfile:
             groups[int(arc[2])] = [(int(arc[0]), int(arc[1]))]
         else:
             groups[int(arc[2])].append((int(arc[0]),int(arc[1])),)
-# print(groups)
 
 # Set parameters
 m.setParam('OutputFlag',True)
@@ -68,9 +66,6 @@ for f_key in d:
 nodes = []
 for i in range(1,31):
     nodes.append("y"+str(i))
-
-#make fariness metric
-# a = ["a"]
 
 #combine lists of arcs and nodes
 vars = arcs + nodes #+ a (add fairness metric to list of vars)
@@ -126,25 +121,12 @@ for i in v:
         m.addConstr(v[i]>=0, name="l"+i)
         m.addConstr(v[i]<=demand[int(i[1])], name="u"+i)
 
-#set fariness constraints
-# 
-# m.addConstr(v["a"]>=0, name="a")
-# for i in range (1,len(groups)+1):
-#     tot_sum = 0
-#     node_sum = 0
-#     for j in range(len(groups[i])):
-#         node_sum += v[f"y{groups[i][j][0]}"]
-#         tot_sum += groups[i][j][1]
-#     m.addConstr((node_sum/tot_sum) >= v["a"], name=f"g{i}")
-
 #set total demand satisfied to be greater than or equal to a percent of 99
 obj = 0
 for i in v:
     if i[0] == 'y':
         obj+=v[i]
         print(i)
-
-# m.addConstr(obj >= 0.95*(103), name=f"g{i}")
 
 # m.setObjective(v["a"], GRB.MAXIMIZE)
 m.setObjective(obj, GRB.MAXIMIZE)

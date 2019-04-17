@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 # Create the model------------------------------------
 m = Model('problem A')
 
+# Create dictionaries from CSV files
 arc_caps = {}
 with open('DS9_Network_Arc_Data.csv', 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
@@ -28,7 +29,6 @@ with open('DS9_Network_Node_Data.csv', 'r') as csvfile:
     next(reader)
     for row in reader:
         arc = row[0].split(",")
-        print(arc)
         node_demand[int(arc[0])] = int(arc[1])
 demand = node_demand
 # print(demand)
@@ -99,8 +99,6 @@ for node in nodes:
             exp+=v[a]
         if send == send_n:
             exp-=v[a]
-    print(node)# 
-#     print(exp)
     m.addConstr(v[node]==exp, name="a"+node)
 
 #set max and min constraints for nodes
@@ -110,7 +108,6 @@ for i in v:
         m.addConstr(v[i]<=demand[int(i[1])], name="u"+i)
 
 #set fariness constraints
-
 m.addConstr(v["a"]>=0, name="a")
 for i in range (1,len(groups)+1):
     tot_sum = 0

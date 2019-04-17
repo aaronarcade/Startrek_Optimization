@@ -83571,3 +83571,25 @@ Solution count 2: 154 18
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 16:38:41 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Optimize a model with 205 rows, 85 columns and 371 nonzeros
+Coefficient statistics:
+  Matrix range     [2e-02, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+03, 1e+03]
+  RHS range        [1e+00, 1e+02]
+Presolve removed 179 rows and 19 columns
+Presolve time: 0.01s
+Presolved: 26 rows, 66 columns, 150 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.8168000e-01   1.300321e+02   0.000000e+00      0s
+      59    6.2987013e-01   0.000000e+00   0.000000e+00      0s
+
+Solved in 59 iterations and 0.01 seconds
+Optimal objective  6.298701299e-01
