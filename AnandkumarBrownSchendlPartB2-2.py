@@ -154,7 +154,6 @@ def f_model(t):
 	m.setObjective(obj, GRB.MAXIMIZE)
 	
 	#optimize model function
-	m.write("B2.lp")
 	m.optimize()
 	
 	#print results

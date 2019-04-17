@@ -205,7 +205,7 @@ Subject To
    + 3 fixed[x21x30] + 3 fixed[x23x8] + 3 fixed[x23x12] + 3 fixed[x23x16]
    + 3 fixed[x23x25] + 3 fixed[x23x29] + 3 fixed[x24x15] + 3 fixed[x24x16]
    + 3 fixed[x24x26] + 3 fixed[x25x30] + 3 fixed[x28x9] + 3 fixed[x28x22]
-   + 3 fixed[x28x26] + 3 fixed[x29x15] + 3 fixed[x29x27] <= 80.8
+   + 3 fixed[x28x26] + 3 fixed[x29x15] + 3 fixed[x29x27] <= 1e+06
  ay1: - x0x1 + x1x4 + x1x5 + x1x8 + x1x13 + x1x16 + x1x17 + x1x30 + y1 = 0
  ay2: x2x9 + x2x11 + x2x19 + x2x24 - x4x2 + y2 = 0
  ay3: x3x10 - x14x3 + y3 = 0
