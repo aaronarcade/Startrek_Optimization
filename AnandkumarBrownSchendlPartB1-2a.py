@@ -1,4 +1,4 @@
-#3133 Group Project
+#Deep Space Nine - Power Grid Research Team MW2 - - - B1-2a
 # Imports------------------------------------
 from gurobipy import GRB,Model
 import pprint
