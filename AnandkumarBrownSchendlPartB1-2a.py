@@ -131,7 +131,7 @@ m.addConstr(obj >= 0.95*(103), name=f"g{i}")
 m.setObjective(v["a"], GRB.MAXIMIZE)
 
 #optimize model function
-m.write("B1_2A.lp")
+m.write("B1_2a.lp")
 m.optimize()
 
 #print results
