@@ -86,6 +86,7 @@ def f_model(percent):
         for j in range(len(groups[i])):
             node_sum += v[f"y{groups[i][j][0]}"]
             tot_sum += groups[i][j][1]
+            print(node_sum, tot_sum)
         m.addConstr((node_sum/tot_sum) >= fair, name=f"g{i}")
 
     # Set total demand satisfied to be greater than or equal to a percent of 99
@@ -94,7 +95,7 @@ def f_model(percent):
         if i[0] == 'y':
             obj+=v[i]
 
-    m.addConstr(obj == percent*(99), name=f"g{i}")
+    m.addConstr(obj == percent*(95), name=f"g{i}")
 
 # Set objective------------------------------------
     #to maximize the percentage parameter of function f_model
