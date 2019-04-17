@@ -83593,3 +83593,1488 @@ Iteration    Objective       Primal Inf.    Dual Inf.      Time
 
 Solved in 59 iterations and 0.01 seconds
 Optimal objective  6.298701299e-01
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:36:50 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+06]
+Found heuristic solution: objective 12.0000000
+Presolve removed 158 rows and 157 columns
+Presolve time: 0.01s
+Presolved: 92 rows, 95 columns, 251 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 56 continuous, 39 integer (5 binary)
+
+Root relaxation: objective 1.540000e+02, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     154.0000000  154.00000  0.00%     -    0s
+
+Explored 0 nodes (32 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:37:17 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+06]
+Found heuristic solution: objective 12.0000000
+Presolve removed 158 rows and 157 columns
+Presolve time: 0.01s
+Presolved: 92 rows, 95 columns, 251 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 56 continuous, 39 integer (5 binary)
+
+Root relaxation: objective 1.540000e+02, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     154.0000000  154.00000  0.00%     -    0s
+
+Explored 0 nodes (32 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:38:07 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:38:34 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:38:50 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:40:12 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+06]
+Found heuristic solution: objective 12.0000000
+Presolve removed 158 rows and 157 columns
+Presolve time: 0.01s
+Presolved: 92 rows, 95 columns, 251 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 56 continuous, 39 integer (5 binary)
+
+Root relaxation: objective 1.540000e+02, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     154.0000000  154.00000  0.00%     -    0s
+
+Explored 0 nodes (32 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:43:15 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+06]
+Found heuristic solution: objective 12.0000000
+Presolve removed 158 rows and 157 columns
+Presolve time: 0.00s
+Presolved: 92 rows, 95 columns, 251 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 56 continuous, 39 integer (5 binary)
+
+Root relaxation: objective 1.540000e+02, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     154.0000000  154.00000  0.00%     -    0s
+
+Explored 0 nodes (32 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:49:34 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:53:29 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 18:53:55 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:04:52 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:05:17 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+06]
+Found heuristic solution: objective 12.0000000
+Presolve removed 158 rows and 157 columns
+Presolve time: 0.01s
+Presolved: 92 rows, 95 columns, 251 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 56 continuous, 39 integer (5 binary)
+
+Root relaxation: objective 1.540000e+02, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     154.0000000  154.00000  0.00%     -    0s
+
+Explored 0 nodes (32 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:13:18 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 1e+06]
+Found heuristic solution: objective 12.0000000
+Presolve removed 158 rows and 157 columns
+Presolve time: 0.01s
+Presolved: 92 rows, 95 columns, 251 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 56 continuous, 39 integer (5 binary)
+
+Root relaxation: objective 1.540000e+02, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     154.0000000  154.00000  0.00%     -    0s
+
+Explored 0 nodes (32 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:14:58 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 7e+01]
+Found heuristic solution: objective 12.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.526710e+02, 61 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  152.67097    0    4   18.00000  152.67097   748%     -    0s
+H    0     0                     151.0000000  152.67097  1.11%     -    0s
+     0     0  152.39011    0    6  151.00000  152.39011  0.92%     -    0s
+H    0     0                     152.0000000  152.39011  0.26%     -    0s
+     0     0  152.00000    0    4  152.00000  152.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 2
+  MIR: 1
+  Flow cover: 1
+
+Explored 1 nodes (67 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 152 151 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.520000000000e+02, best bound 1.520000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:15:12 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 7e+01]
+Found heuristic solution: objective 12.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.532857e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  153.28571    0    2   18.00000  153.28571   752%     -    0s
+H    0     0                     152.0000000  153.28571  0.85%     -    0s
+     0     0  153.10323    0    3  152.00000  153.10323  0.73%     -    0s
+     0     0  152.50000    0    3  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    4  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    2  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    5  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    4  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    4  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    2  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    4  152.00000  152.50000  0.33%     -    0s
+     0     0  152.50000    0    4  152.00000  152.50000  0.33%     -    0s
+     0     0  152.41649    0    4  152.00000  152.41649  0.27%     -    0s
+     0     0  152.37500    0    2  152.00000  152.37500  0.25%     -    0s
+     0     0  152.37500    0    2  152.00000  152.37500  0.25%     -    0s
+     0     1  152.37500    0    2  152.00000  152.37500  0.25%     -    0s
+
+Cutting planes:
+  Gomory: 1
+
+Explored 2 nodes (118 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 152 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.520000000000e+02, best bound 1.520000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:15:21 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 12.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.540000e+02, 59 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  154.00000    0    3   18.00000  154.00000   756%     -    0s
+H    0     0                     152.0000000  154.00000  1.32%     -    0s
+H    0     0                     154.0000000  154.00000  0.00%     -    0s
+
+Explored 1 nodes (59 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 154 152 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:15:29 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 12.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.540000e+02, 61 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  154.00000    0    2   18.00000  154.00000   756%     -    0s
+H    0     0                     153.0000000  154.00000  0.65%     -    0s
+     0     0     cutoff    0       153.00000  153.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 1
+  MIR: 1
+  StrongCG: 1
+
+Explored 1 nodes (71 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 153 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.530000000000e+02, best bound 1.530000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:15:34 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 12.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.540000e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  154.00000    0    3   18.00000  154.00000   756%     -    0s
+H    0     0                     154.0000000  154.00000  0.00%     -    0s
+
+Explored 1 nodes (60 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:15:39 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 12.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 18.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.540000e+02, 61 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  154.00000    0    2   18.00000  154.00000   756%     -    0s
+H    0     0                     152.0000000  154.00000  1.32%     -    0s
+H    0     0                     153.0000000  154.00000  0.65%     -    0s
+     0     0  153.90588    0    6  153.00000  153.90588  0.59%     -    0s
+     0     0     cutoff    0       153.00000  153.00000  0.00%     -    0s
+
+Cutting planes:
+  Gomory: 3
+  StrongCG: 2
+
+Explored 1 nodes (81 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 153 152 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.530000000000e+02, best bound 1.530000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:18:12 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 10.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.01s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 16.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.540000e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  154.00000    0    3   16.00000  154.00000   862%     -    0s
+H    0     0                     154.0000000  154.00000  0.00%     -    0s
+
+Explored 1 nodes (60 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 154 16 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.540000000000e+02, best bound 1.540000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:18:29 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 77.0000000
+Presolve removed 109 rows and 106 columns
+Presolve time: 0.00s
+Presolved: 141 rows, 146 columns, 441 nonzeros
+Variable types: 59 continuous, 87 integer (49 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 77 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.700000000000e+01, best bound 7.700000000000e+01, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:18:41 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 77.0000000
+Presolve removed 109 rows and 106 columns
+Presolve time: 0.00s
+Presolved: 141 rows, 146 columns, 441 nonzeros
+Variable types: 59 continuous, 87 integer (49 binary)
+
+Root relaxation: cutoff, 0 iterations, 0.00 seconds
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 77 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.700000000000e+01, best bound 7.700000000000e+01, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:18:52 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 25.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 0.000000e+00, 22 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 0 nodes (22 simplex iterations) in 0.00 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 0 25 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:21:11 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -13.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -7.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 50 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (50 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:21:43 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -13.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -7.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 50 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (50 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:21:52 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -13.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -7.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 50 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (50 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:22:00 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -13.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -7.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 50 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (50 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:22:07 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -13.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -7.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 50 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (50 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:24:47 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -13.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -7.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 50 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (50 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:26:26 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e+00, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -13.0000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.01s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -7.0000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 50 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (50 simplex iterations) in 0.02 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -7 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:27:37 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:27:55 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [9e-01, 3e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective -10.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective -4.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.030000e+02, 55 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     103.0000000  103.00000  0.00%     -    0s
+
+Explored 0 nodes (55 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 103 -4.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.030000000000e+02, best bound 1.030000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:28:01 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:32:39 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.01s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:32:50 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:32:59 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:33:07 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:33:26 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:34:27 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:34:35 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:34:50 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.01s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.04 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:35:08 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:35:30 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:38:58 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.01s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.03 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:39:51 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.02s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.05 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
+
+Gurobi 8.1.0 (mac64, Python) logging started Wed Apr 17 19:40:05 2019
+
+Academic license - for non-commercial use only
+Parameter OutputFlag unchanged
+   Value: 1  Min: 0  Max: 1  Default: 1
+Warning: linear constraint 0 and linear constraint 1 have the same name "maxcaps"
+Optimize a model with 250 rows, 252 columns and 623 nonzeros
+Variable types: 84 continuous, 168 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+01]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 1e+03]
+  RHS range        [1e+00, 8e+01]
+Found heuristic solution: objective 9.5000000
+Presolve removed 118 rows and 115 columns
+Presolve time: 0.00s
+Presolved: 132 rows, 137 columns, 416 nonzeros
+Found heuristic solution: objective 15.5000000
+Variable types: 58 continuous, 79 integer (43 binary)
+
+Root relaxation: objective 1.465143e+02, 60 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  146.51429    0    1   15.50000  146.51429   845%     -    0s
+H    0     0                     146.3000000  146.51429  0.15%     -    0s
+     0     0  146.48000    0    1  146.30000  146.48000  0.12%     -    0s
+     0     0 infeasible    0       146.30000  146.30000  0.00%     -    0s
+
+Explored 1 nodes (61 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 146.3 15.5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.463000000000e+02, best bound 1.463000000000e+02, gap 0.0000%
