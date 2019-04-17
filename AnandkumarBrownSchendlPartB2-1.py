@@ -142,6 +142,7 @@ obj = 0
 for i in v:
     if i[0] == 'y':
         obj+=v[i]
+        print(i)
 
 # m.addConstr(obj >= 0.95*(103), name=f"g{i}")
 
