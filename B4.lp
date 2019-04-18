@@ -3,7 +3,7 @@
 Maximize
   y1 + y2 + y3 + y4 + y5 + y6 + y7 + y8 + y9 + y10 + y11 + y12 + y13 + y14
    + y15 + y16 + y17 + y18 + y19 + y20 + y21 + y22 + y23 + y24 + y25 + y26
-   + y27 + y28 + y29 + y30 - 0.1 bolts[x0x1] - 0.1 bolts[x1x4]
+   + y27 + y28 + y29 + y30 + -0 time - 0.1 bolts[x0x1] - 0.1 bolts[x1x4]
    - 0.1 bolts[x1x5] - 0.1 bolts[x1x8] - 0.1 bolts[x1x13]
    - 0.1 bolts[x1x16] - 0.1 bolts[x1x17] - 0.1 bolts[x1x30]
    - 0.1 bolts[x2x9] - 0.1 bolts[x2x11] - 0.1 bolts[x2x19]
@@ -28,32 +28,33 @@ Maximize
    + -0 bolts[y16] + -0 bolts[y17] + -0 bolts[y18] + -0 bolts[y19]
    + -0 bolts[y20] + -0 bolts[y21] + -0 bolts[y22] + -0 bolts[y23]
    + -0 bolts[y24] + -0 bolts[y25] + -0 bolts[y26] + -0 bolts[y27]
-   + -0 bolts[y28] + -0 bolts[y29] + -0 bolts[y30] - 0.3 fixed[x0x1]
-   - 0.3 fixed[x1x4] - 0.3 fixed[x1x5] - 0.3 fixed[x1x8] - 0.3 fixed[x1x13]
-   - 0.3 fixed[x1x16] - 0.3 fixed[x1x17] - 0.3 fixed[x1x30]
-   - 0.3 fixed[x2x9] - 0.3 fixed[x2x11] - 0.3 fixed[x2x19]
-   - 0.3 fixed[x2x24] - 0.3 fixed[x3x10] - 0.3 fixed[x4x2]
-   - 0.3 fixed[x4x19] - 0.3 fixed[x4x24] - 0.3 fixed[x5x14]
-   - 0.3 fixed[x5x23] - 0.3 fixed[x8x6] - 0.3 fixed[x8x18]
-   - 0.3 fixed[x9x17] - 0.3 fixed[x9x18] - 0.3 fixed[x9x20]
-   - 0.3 fixed[x11x18] - 0.3 fixed[x12x22] - 0.3 fixed[x13x11]
-   - 0.3 fixed[x13x28] - 0.3 fixed[x14x3] - 0.3 fixed[x14x21]
-   - 0.3 fixed[x17x5] - 0.3 fixed[x17x11] - 0.3 fixed[x17x25]
-   - 0.3 fixed[x17x28] - 0.3 fixed[x17x29] - 0.3 fixed[x19x8]
-   - 0.3 fixed[x19x11] - 0.3 fixed[x19x25] - 0.3 fixed[x19x27]
-   - 0.3 fixed[x21x7] - 0.3 fixed[x21x30] - 0.3 fixed[x23x8]
-   - 0.3 fixed[x23x12] - 0.3 fixed[x23x16] - 0.3 fixed[x23x25]
-   - 0.3 fixed[x23x29] - 0.3 fixed[x24x15] - 0.3 fixed[x24x16]
-   - 0.3 fixed[x24x26] - 0.3 fixed[x25x30] - 0.3 fixed[x28x9]
-   - 0.3 fixed[x28x22] - 0.3 fixed[x28x26] - 0.3 fixed[x29x15]
-   - 0.3 fixed[x29x27] + -0 fixed[y1] + -0 fixed[y2] + -0 fixed[y3]
-   + -0 fixed[y4] + -0 fixed[y5] + -0 fixed[y6] + -0 fixed[y7]
-   + -0 fixed[y8] + -0 fixed[y9] + -0 fixed[y10] + -0 fixed[y11]
-   + -0 fixed[y12] + -0 fixed[y13] + -0 fixed[y14] + -0 fixed[y15]
-   + -0 fixed[y16] + -0 fixed[y17] + -0 fixed[y18] + -0 fixed[y19]
-   + -0 fixed[y20] + -0 fixed[y21] + -0 fixed[y22] + -0 fixed[y23]
-   + -0 fixed[y24] + -0 fixed[y25] + -0 fixed[y26] + -0 fixed[y27]
-   + -0 fixed[y28] + -0 fixed[y29] + -0 fixed[y30]
+   + -0 bolts[y28] + -0 bolts[y29] + -0 bolts[y30] + -0 bolts[time]
+   - 0.3 fixed[x0x1] - 0.3 fixed[x1x4] - 0.3 fixed[x1x5] - 0.3 fixed[x1x8]
+   - 0.3 fixed[x1x13] - 0.3 fixed[x1x16] - 0.3 fixed[x1x17]
+   - 0.3 fixed[x1x30] - 0.3 fixed[x2x9] - 0.3 fixed[x2x11]
+   - 0.3 fixed[x2x19] - 0.3 fixed[x2x24] - 0.3 fixed[x3x10]
+   - 0.3 fixed[x4x2] - 0.3 fixed[x4x19] - 0.3 fixed[x4x24]
+   - 0.3 fixed[x5x14] - 0.3 fixed[x5x23] - 0.3 fixed[x8x6]
+   - 0.3 fixed[x8x18] - 0.3 fixed[x9x17] - 0.3 fixed[x9x18]
+   - 0.3 fixed[x9x20] - 0.3 fixed[x11x18] - 0.3 fixed[x12x22]
+   - 0.3 fixed[x13x11] - 0.3 fixed[x13x28] - 0.3 fixed[x14x3]
+   - 0.3 fixed[x14x21] - 0.3 fixed[x17x5] - 0.3 fixed[x17x11]
+   - 0.3 fixed[x17x25] - 0.3 fixed[x17x28] - 0.3 fixed[x17x29]
+   - 0.3 fixed[x19x8] - 0.3 fixed[x19x11] - 0.3 fixed[x19x25]
+   - 0.3 fixed[x19x27] - 0.3 fixed[x21x7] - 0.3 fixed[x21x30]
+   - 0.3 fixed[x23x8] - 0.3 fixed[x23x12] - 0.3 fixed[x23x16]
+   - 0.3 fixed[x23x25] - 0.3 fixed[x23x29] - 0.3 fixed[x24x15]
+   - 0.3 fixed[x24x16] - 0.3 fixed[x24x26] - 0.3 fixed[x25x30]
+   - 0.3 fixed[x28x9] - 0.3 fixed[x28x22] - 0.3 fixed[x28x26]
+   - 0.3 fixed[x29x15] - 0.3 fixed[x29x27] + -0 fixed[y1] + -0 fixed[y2]
+   + -0 fixed[y3] + -0 fixed[y4] + -0 fixed[y5] + -0 fixed[y6]
+   + -0 fixed[y7] + -0 fixed[y8] + -0 fixed[y9] + -0 fixed[y10]
+   + -0 fixed[y11] + -0 fixed[y12] + -0 fixed[y13] + -0 fixed[y14]
+   + -0 fixed[y15] + -0 fixed[y16] + -0 fixed[y17] + -0 fixed[y18]
+   + -0 fixed[y19] + -0 fixed[y20] + -0 fixed[y21] + -0 fixed[y22]
+   + -0 fixed[y23] + -0 fixed[y24] + -0 fixed[y25] + -0 fixed[y26]
+   + -0 fixed[y27] + -0 fixed[y28] + -0 fixed[y29] + -0 fixed[y30]
+   + -0 fixed[time]
 Subject To
  maxcaps: x1x4 - bolts[x1x4] <= 25
  maxcaps: x1x5 - bolts[x1x5] <= 29
@@ -240,7 +241,7 @@ Subject To
    + 3 fixed[x21x30] + 3 fixed[x23x8] + 3 fixed[x23x12] + 3 fixed[x23x16]
    + 3 fixed[x23x25] + 3 fixed[x23x29] + 3 fixed[x24x15] + 3 fixed[x24x16]
    + 3 fixed[x24x26] + 3 fixed[x25x30] + 3 fixed[x28x9] + 3 fixed[x28x22]
-   + 3 fixed[x28x26] + 3 fixed[x29x15] + 3 fixed[x29x27] <= 77
+   + 3 fixed[x28x26] + 3 fixed[x29x15] + 3 fixed[x29x27] >= 0
  ay1: - x0x1 + x1x4 + x1x5 + x1x8 + x1x13 + x1x16 + x1x17 + x1x30 + y1 = 0
  ay2: x2x9 + x2x11 + x2x19 + x2x24 - x4x2 + y2 = 0
  ay3: x3x10 - x14x3 + y3 = 0
@@ -417,6 +418,7 @@ Bounds
  y28 >= -999
  y29 >= -999
  y30 >= -999
+ time >= -999
 Binaries
  fixed[x0x1] fixed[x1x4] fixed[x1x5] fixed[x1x8] fixed[x1x13] fixed[x1x16]
  fixed[x1x17] fixed[x1x30] fixed[x2x9] fixed[x2x11] fixed[x2x19]
@@ -433,7 +435,7 @@ Binaries
  fixed[y11] fixed[y12] fixed[y13] fixed[y14] fixed[y15] fixed[y16]
  fixed[y17] fixed[y18] fixed[y19] fixed[y20] fixed[y21] fixed[y22]
  fixed[y23] fixed[y24] fixed[y25] fixed[y26] fixed[y27] fixed[y28]
- fixed[y29] fixed[y30]
+ fixed[y29] fixed[y30] fixed[time]
 Generals
  bolts[x0x1] bolts[x1x4] bolts[x1x5] bolts[x1x8] bolts[x1x13] bolts[x1x16]
  bolts[x1x17] bolts[x1x30] bolts[x2x9] bolts[x2x11] bolts[x2x19]
@@ -450,5 +452,5 @@ Generals
  bolts[y11] bolts[y12] bolts[y13] bolts[y14] bolts[y15] bolts[y16]
  bolts[y17] bolts[y18] bolts[y19] bolts[y20] bolts[y21] bolts[y22]
  bolts[y23] bolts[y24] bolts[y25] bolts[y26] bolts[y27] bolts[y28]
- bolts[y29] bolts[y30]
+ bolts[y29] bolts[y30] bolts[time]
 End

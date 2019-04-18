@@ -73,11 +73,11 @@ def f_model(t):
 	for i in range(1,31):
 	    nodes.append("y"+str(i))
 	
-	#make fariness metric
-	# a = ["a"]
+	# define time variable
+	time = ["time"]
 	
 	#combine lists of arcs and nodes
-	vars = arcs + nodes #+ a (add fairness metric to list of vars)
+	vars = arcs + nodes + time 
 	
 	#addvars arcs and nodes in list vars
 	print(arcs)
@@ -103,7 +103,7 @@ def f_model(t):
 	    if i[0]=='x' and i != 'x0x1':
 	    	m.addConstr(bolts[i]<=d[int(i.split("x")[1])][int(i.split("x")[2])][1]*fixed[i], "boltcaps")
 	       
-	time = 3
+	time = 0
 	for i  in arcs:
 		time += 3* fixed[i] + bolts[i]
 		print(fixed[i], bolts[i])
@@ -152,7 +152,7 @@ def f_model(t):
 	# m.addConstr(obj >= 0.95*(103), name=f"g{i}")
 	
 	# m.setObjective(v["a"], GRB.MAXIMIZE)
-	m.setObjective(obj, GRB.MAXIMIZE)
+	m.setObjective(obj-time*.1, GRB.MAXIMIZE)
 	
 	#optimize model function
 	m.optimize()

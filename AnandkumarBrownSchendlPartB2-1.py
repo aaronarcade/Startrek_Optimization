@@ -73,8 +73,8 @@ vars = arcs + nodes #+ a (add fairness metric to list of vars)
 #addvars arcs and nodes in list vars
 print(arcs)
 v = m.addVars(vars, vtype=GRB.CONTINUOUS, lb = -999, name = vars)
-bolts = m.addVars(vars, vtype=GRB.INTEGER, name="bolts")
-fixed = m.addVars(vars, vtype=GRB.BINARY, name="fixed")
+bolts = m.addVars(arcs, vtype=GRB.CONTINUOUS, name="bolts", lb=0)
+fixed = m.addVars(arcs, vtype=GRB.BINARY, name="fixed", lb=0)
 
 # Add constraints------------------------------------
 
@@ -92,7 +92,7 @@ for i in arcs:
 #make list of arcs caps with bolts fixed and maximp
 for i in arcs:
     if i[0]=='x' and i != 'x0x1':
-       m.addConstr(bolts[i]<=d[int(i.split("x")[1])][int(i.split("x")[2])][1]*fixed[i], "boltcaps")
+       m.addConstr(bolts[i]<=fixed[i]*d[int(i.split("x")[1])][int(i.split("x")[2])][1], "boltcaps")
        
 time = 0
 for i  in arcs:
