@@ -146,12 +146,11 @@ if status == 2:
         print('%s = %g' % (v.varName, v.x))
         if v.varname == "x0x1":
         	source = v.x
-#     print('Optimal objective value:\n{}'.format(m.objVal))
 
 time = 0
 for i  in arcs:
 	time += 3* fixed[i].X + bolts[i].X
 print("Demand Satisfied:")
-print(source)
+print(source) #returns 154 units of demand satisfied
 print("Hours Spent:")
-print(time)
+print(time) #returns 77 minimum man hours spent to hit max demand satisfied
