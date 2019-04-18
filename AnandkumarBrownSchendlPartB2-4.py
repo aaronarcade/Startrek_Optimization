@@ -1,4 +1,4 @@
-#Deep Space Nine - Power Grid Research Team MW2 - - - B2-1
+#Deep Space Nine - Power Grid Research Team MW2 - - - B2-4
 # Imports------------------------------------
 from gurobipy import GRB,Model
 import pprint
